@@ -11,3 +11,5 @@ JDBCDemo.java -- 是一个java最基础的连接数据库的写法，没有预�
 Days.java -- 是一个键盘输入年、月、日，程序会对年月日的合法性进行判断，同时也会对闰年进行判断，整个程序是判断用户输入的日期是该年的第几天。
 
 BinarySearch.java -- 是一个用来二分查找的java程序，在Arrays工具包中，有对数组进行二分查找的函数，这里是一个模板，可以套用。
+
+CheckUnit.java -- 是一个用来检查输入数字是否和发的工具类，其中提供了对整数、实数double的输入检查。分别提供了检查是否符合该类型数和是否符合该类型数的范围。例如：checkInt(Scanner input) & checkIntRange(Scanner input, int min, int max).
